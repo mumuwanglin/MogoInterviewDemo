@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B47A4E3A1F2F474E0059DEA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47A4E391F2F474E0059DEA2 /* AppDelegate.swift */; };
+		B47A4E3C1F2F474E0059DEA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47A4E3B1F2F474E0059DEA2 /* ViewController.swift */; };
+		B47A4E3F1F2F474E0059DEA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B47A4E3D1F2F474E0059DEA2 /* Main.storyboard */; };
+		B47A4E411F2F474E0059DEA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B47A4E401F2F474E0059DEA2 /* Assets.xcassets */; };
+		B47A4E441F2F474E0059DEA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B47A4E421F2F474E0059DEA2 /* LaunchScreen.storyboard */; };
+		B47A4E4E1F2F4C3C0059DEA2 /* MogoViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47A4E4D1F2F4C3C0059DEA2 /* MogoViewController1.swift */; };
+		B47A4E501F2F4C4E0059DEA2 /* MogoViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47A4E4F1F2F4C4E0059DEA2 /* MogoViewController2.swift */; };
+		B47A4E521F2F4C570059DEA2 /* MogoViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47A4E511F2F4C570059DEA2 /* MogoViewController3.swift */; };
+		B47A4E541F2F4C610059DEA2 /* MogoViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47A4E531F2F4C610059DEA2 /* MogoViewController4.swift */; };
+		B47A4E561F2F4C6D0059DEA2 /* MogoViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47A4E551F2F4C6D0059DEA2 /* MogoViewController5.swift */; };
+		B47A4E591F2F63350059DEA2 /* UIColor+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47A4E581F2F63350059DEA2 /* UIColor+Random.swift */; };
+		B47A4E5C1F2F72340059DEA2 /* MogoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47A4E5B1F2F72340059DEA2 /* MogoApi.swift */; };
+		B47A4E631F30149F0059DEA2 /* MogoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47A4E621F30149F0059DEA2 /* MogoTableViewCell.swift */; };
+		B47A4E671F302F960059DEA2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47A4E661F302F960059DEA2 /* BaseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B47A4E361F2F474E0059DEA2 /* MogoInterviewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MogoInterviewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B47A4E391F2F474E0059DEA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B47A4E3B1F2F474E0059DEA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B47A4E3E1F2F474E0059DEA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B47A4E401F2F474E0059DEA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B47A4E431F2F474E0059DEA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B47A4E451F2F474E0059DEA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B47A4E4D1F2F4C3C0059DEA2 /* MogoViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MogoViewController1.swift; sourceTree = "<group>"; };
+		B47A4E4F1F2F4C4E0059DEA2 /* MogoViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MogoViewController2.swift; sourceTree = "<group>"; };
+		B47A4E511F2F4C570059DEA2 /* MogoViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MogoViewController3.swift; sourceTree = "<group>"; };
+		B47A4E531F2F4C610059DEA2 /* MogoViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MogoViewController4.swift; sourceTree = "<group>"; };
+		B47A4E551F2F4C6D0059DEA2 /* MogoViewController5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MogoViewController5.swift; sourceTree = "<group>"; };
+		B47A4E581F2F63350059DEA2 /* UIColor+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Random.swift"; sourceTree = "<group>"; };
+		B47A4E5B1F2F72340059DEA2 /* MogoApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MogoApi.swift; sourceTree = "<group>"; };
+		B47A4E621F30149F0059DEA2 /* MogoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MogoTableViewCell.swift; sourceTree = "<group>"; };
+		B47A4E661F302F960059DEA2 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B47A4E331F2F474E0059DEA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B47A4E2D1F2F474E0059DEA2 = {
+			isa = PBXGroup;
+			children = (
+				B47A4E381F2F474E0059DEA2 /* MogoInterviewDemo */,
+				B47A4E371F2F474E0059DEA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B47A4E371F2F474E0059DEA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B47A4E361F2F474E0059DEA2 /* MogoInterviewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B47A4E381F2F474E0059DEA2 /* MogoInterviewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B47A4E4B1F2F4C1A0059DEA2 /* MogoRoom */,
+				B47A4E391F2F474E0059DEA2 /* AppDelegate.swift */,
+				B47A4E3B1F2F474E0059DEA2 /* ViewController.swift */,
+				B47A4E3D1F2F474E0059DEA2 /* Main.storyboard */,
+				B47A4E401F2F474E0059DEA2 /* Assets.xcassets */,
+				B47A4E421F2F474E0059DEA2 /* LaunchScreen.storyboard */,
+				B47A4E451F2F474E0059DEA2 /* Info.plist */,
+			);
+			path = MogoInterviewDemo;
+			sourceTree = "<group>";
+		};
+		B47A4E4B1F2F4C1A0059DEA2 /* MogoRoom */ = {
+			isa = PBXGroup;
+			children = (
+				B47A4E641F302F650059DEA2 /* Base */,
+				B47A4E611F3014770059DEA2 /* View */,
+				B47A4E5A1F2F721D0059DEA2 /* MogoApi */,
+				B47A4E571F2F5F280059DEA2 /* Util */,
+				B47A4E4C1F2F4C1A0059DEA2 /* MogoController */,
+			);
+			path = MogoRoom;
+			sourceTree = "<group>";
+		};
+		B47A4E4C1F2F4C1A0059DEA2 /* MogoController */ = {
+			isa = PBXGroup;
+			children = (
+				B47A4E4D1F2F4C3C0059DEA2 /* MogoViewController1.swift */,
+				B47A4E4F1F2F4C4E0059DEA2 /* MogoViewController2.swift */,
+				B47A4E511F2F4C570059DEA2 /* MogoViewController3.swift */,
+				B47A4E531F2F4C610059DEA2 /* MogoViewController4.swift */,
+				B47A4E551F2F4C6D0059DEA2 /* MogoViewController5.swift */,
+			);
+			path = MogoController;
+			sourceTree = "<group>";
+		};
+		B47A4E571F2F5F280059DEA2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B47A4E581F2F63350059DEA2 /* UIColor+Random.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B47A4E5A1F2F721D0059DEA2 /* MogoApi */ = {
+			isa = PBXGroup;
+			children = (
+				B47A4E5B1F2F72340059DEA2 /* MogoApi.swift */,
+			);
+			path = MogoApi;
+			sourceTree = "<group>";
+		};
+		B47A4E611F3014770059DEA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B47A4E621F30149F0059DEA2 /* MogoTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B47A4E641F302F650059DEA2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B47A4E661F302F960059DEA2 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B47A4E351F2F474E0059DEA2 /* MogoInterviewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B47A4E481F2F474E0059DEA2 /* Build configuration list for PBXNativeTarget "MogoInterviewDemo" */;
+			buildPhases = (
+				B47A4E321F2F474E0059DEA2 /* Sources */,
+				B47A4E331F2F474E0059DEA2 /* Frameworks */,
+				B47A4E341F2F474E0059DEA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MogoInterviewDemo;
+			productName = MogoInterviewDemo;
+			productReference = B47A4E361F2F474E0059DEA2 /* MogoInterviewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B47A4E2E1F2F474E0059DEA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "王林";
+				TargetAttributes = {
+					B47A4E351F2F474E0059DEA2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9CQQVJ9M3Q;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B47A4E311F2F474E0059DEA2 /* Build configuration list for PBXProject "MogoInterviewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B47A4E2D1F2F474E0059DEA2;
+			productRefGroup = B47A4E371F2F474E0059DEA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B47A4E351F2F474E0059DEA2 /* MogoInterviewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B47A4E341F2F474E0059DEA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47A4E441F2F474E0059DEA2 /* LaunchScreen.storyboard in Resources */,
+				B47A4E411F2F474E0059DEA2 /* Assets.xcassets in Resources */,
+				B47A4E3F1F2F474E0059DEA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B47A4E321F2F474E0059DEA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47A4E591F2F63350059DEA2 /* UIColor+Random.swift in Sources */,
+				B47A4E631F30149F0059DEA2 /* MogoTableViewCell.swift in Sources */,
+				B47A4E671F302F960059DEA2 /* BaseViewController.swift in Sources */,
+				B47A4E5C1F2F72340059DEA2 /* MogoApi.swift in Sources */,
+				B47A4E3C1F2F474E0059DEA2 /* ViewController.swift in Sources */,
+				B47A4E541F2F4C610059DEA2 /* MogoViewController4.swift in Sources */,
+				B47A4E4E1F2F4C3C0059DEA2 /* MogoViewController1.swift in Sources */,
+				B47A4E521F2F4C570059DEA2 /* MogoViewController3.swift in Sources */,
+				B47A4E3A1F2F474E0059DEA2 /* AppDelegate.swift in Sources */,
+				B47A4E561F2F4C6D0059DEA2 /* MogoViewController5.swift in Sources */,
+				B47A4E501F2F4C4E0059DEA2 /* MogoViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B47A4E3D1F2F474E0059DEA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B47A4E3E1F2F474E0059DEA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B47A4E421F2F474E0059DEA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B47A4E431F2F474E0059DEA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B47A4E461F2F474E0059DEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B47A4E471F2F474E0059DEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B47A4E491F2F474E0059DEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9CQQVJ9M3Q;
+				INFOPLIST_FILE = MogoInterviewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mumu.MogoInterviewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B47A4E4A1F2F474E0059DEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9CQQVJ9M3Q;
+				INFOPLIST_FILE = MogoInterviewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mumu.MogoInterviewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B47A4E311F2F474E0059DEA2 /* Build configuration list for PBXProject "MogoInterviewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B47A4E461F2F474E0059DEA2 /* Debug */,
+				B47A4E471F2F474E0059DEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B47A4E481F2F474E0059DEA2 /* Build configuration list for PBXNativeTarget "MogoInterviewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B47A4E491F2F474E0059DEA2 /* Debug */,
+				B47A4E4A1F2F474E0059DEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B47A4E2E1F2F474E0059DEA2 /* Project object */;
+}

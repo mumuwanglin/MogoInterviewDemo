@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "67C80EDE518E73B82CC4D5D83B6B2CCF2CAD3F86",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FCB9165FA3FCCEC8975CF74CA5754519B0BC71A4" : 9223372036854775807,
+    "67C80EDE518E73B82CC4D5D83B6B2CCF2CAD3F86" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F17FF7B5-BF2E-4543-A72B-4C3D4FCC617D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FCB9165FA3FCCEC8975CF74CA5754519B0BC71A4" : "MogoInterviewDemo%20%E4%B8%8B%E5%8D%882.51.27\/MogoInterviewDemo\/",
+    "67C80EDE518E73B82CC4D5D83B6B2CCF2CAD3F86" : "MogoInterviewDemo%20%E4%B8%8B%E5%8D%882.51.27\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MogoInterviewDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MogoInterviewDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mumuwanglin\/MogoInterviewDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "67C80EDE518E73B82CC4D5D83B6B2CCF2CAD3F86"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mumuwanglin\/MogoInterviewDemo",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FCB9165FA3FCCEC8975CF74CA5754519B0BC71A4"
+    }
+  ]
+}
